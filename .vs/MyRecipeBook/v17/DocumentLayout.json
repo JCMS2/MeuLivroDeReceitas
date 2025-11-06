@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB62A3-B08C-48E2-AB20-BF691FF51B41}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\shared\\myrecipebook.communication\\responses\\responseregistereduserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB62A3-B08C-48E2-AB20-BF691FF51B41}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|solutionrelative:src\\shared\\myrecipebook.communication\\responses\\responseregistereduserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB62A3-B08C-48E2-AB20-BF691FF51B41}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\shared\\myrecipebook.communication\\requests\\resquestregistreuserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB62A3-B08C-48E2-AB20-BF691FF51B41}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|solutionrelative:src\\shared\\myrecipebook.communication\\requests\\resquestregistreuserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +38,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResponseRegisteredUserJson.cs",
+              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseRegisteredUserJson.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseRegisteredUserJson.cs",
+              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseRegisteredUserJson.cs",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseRegisteredUserJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T20:23:39.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResquestRegistreUserJson.cs",
+              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Shared\\MyRecipeBook.Communication\\Requests\\ResquestRegistreUserJson.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Communication\\Requests\\ResquestRegistreUserJson.cs",
+              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Shared\\MyRecipeBook.Communication\\Requests\\ResquestRegistreUserJson.cs",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Communication\\Requests\\ResquestRegistreUserJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T20:10:28.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T20:04:05.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T20:02:02.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Program.cs",
               "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Program.cs",
               "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T20:25:25.746Z",
               "EditorCaption": ""

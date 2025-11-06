@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "ContainingType": "MyRecipeBook.API.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resquest",
+        "Type": "MyRecipeBook.Communication.Requests.ResquestRegistreUserJson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MyRecipeBook.Communication.Responses.ResponseRegisteredUserJson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  }
+]
