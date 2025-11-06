@@ -34,3 +34,11 @@ C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeRecei
 C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\obj\Debug\net8.0\MyRecipeBook.API.pdb
 C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\obj\Debug\net8.0\MyRecipeBook.API.genruntimeconfig.cache
 C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\obj\Debug\net8.0\ref\MyRecipeBook.API.dll
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Application.dll
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Communication.dll
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Domain.dll
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Exceptions.dll
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Communication.pdb
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Exceptions.pdb
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Application.pdb
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Domain.pdb
