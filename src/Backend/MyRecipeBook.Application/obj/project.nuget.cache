@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NA8bxBSW7Cs=",
+  "dgSpecHash": "XE4t6vFd/TA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Comercial\\Desktop\\Zé\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Comercial\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
