@@ -42,3 +42,7 @@ C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeRecei
 C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Exceptions.pdb
 C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Application.pdb
 C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\MyRecipeBook.Domain.pdb
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\fr\MyRecipeBook.Exceptions.resources.dll
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\pt-BR\MyRecipeBook.Exceptions.resources.dll
+C:\Users\Comercial\Desktop\Zé\C#\Udemy\.NET Core Welisson Arley\MeuLivroDeReceitas\src\Backend\MyRecipeBook.API\bin\Debug\net8.0\pt-PT\MyRecipeBook.Exceptions.resources.dll
