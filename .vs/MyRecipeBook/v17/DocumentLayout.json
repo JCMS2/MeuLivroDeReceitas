@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.api\\myrecipebook.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\myrecipebook.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{60F159BC-DFE3-4EC9-8136-4CD702490821}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\shared\\myrecipebook.exceptions\\exceptionsbase\\myrecipebookexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F159BC-DFE3-4EC9-8136-4CD702490821}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|solutionrelative:src\\shared\\myrecipebook.exceptions\\exceptionsbase\\myrecipebookexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.api\\middleware\\culturemiddware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\middleware\\culturemiddware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07845A03-1264-43F4-B9D2-5626CD49ACF7}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.application\\usercases\\user\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07845A03-1264-43F4-B9D2-5626CD49ACF7}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\usercases\\user\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07845A03-1264-43F4-B9D2-5626CD49ACF7}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.application\\usercases\\user\\register\\registeruservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07845A03-1264-43F4-B9D2-5626CD49ACF7}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\usercases\\user\\register\\registeruservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60F159BC-DFE3-4EC9-8136-4CD702490821}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\shared\\myrecipebook.exceptions\\exceptionsbase\\erroonvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F159BC-DFE3-4EC9-8136-4CD702490821}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|solutionrelative:src\\shared\\myrecipebook.exceptions\\exceptionsbase\\erroonvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{991E3394-CAA4-43EF-AD10-EF12D97FA6AA}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07845A03-1264-43F4-B9D2-5626CD49ACF7}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|c:\\users\\comercial\\desktop\\z\u00E9\\c#\\udemy\\.net core welisson arley\\meulivrodereceitas\\src\\backend\\myrecipebook.application\\usercases\\user\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07845A03-1264-43F4-B9D2-5626CD49ACF7}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\usercases\\user\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,19 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T19:07:58.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErroOnValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Shared\\MyRecipeBook.Exceptions\\ExceptionsBase\\ErroOnValidationException.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Exceptions\\ExceptionsBase\\ErroOnValidationException.cs",
+              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Shared\\MyRecipeBook.Exceptions\\ExceptionsBase\\ErroOnValidationException.cs",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Exceptions\\ExceptionsBase\\ErroOnValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:14:20.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MyRecipeBook.API",
-              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
-              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-10T19:47:06.3Z",
+              "Title": "MyRecipeBookException.cs",
+              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Shared\\MyRecipeBook.Exceptions\\ExceptionsBase\\MyRecipeBookException.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Exceptions\\ExceptionsBase\\MyRecipeBookException.cs",
+              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Shared\\MyRecipeBook.Exceptions\\ExceptionsBase\\MyRecipeBookException.cs",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Exceptions\\ExceptionsBase\\MyRecipeBookException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:11:52.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUserUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserUseCase.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserUseCase.cs",
+              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserUseCase.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:06:21.041Z",
               "EditorCaption": ""
             },
             {
@@ -57,61 +92,9 @@
               "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddware.cs",
               "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddware.cs",
               "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBAAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvywAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T19:33:44.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterUserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserValidator.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserValidator.cs",
-              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserValidator.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:44:49.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterUserUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserUseCase.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserUseCase.cs",
-              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserUseCase.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\UserCases\\User\\Register\\RegisterUserUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T16:36:58.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T16:38:08.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Comercial\\Desktop\\Z\u00E9\\C#\\Udemy\\.NET Core Welisson Arley\\MeuLivroDeReceitas\\src\\Backend\\MyRecipeBook.API\\Program.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T20:25:25.746Z",
               "EditorCaption": ""
             }
           ]

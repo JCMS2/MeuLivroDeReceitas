@@ -10,14 +10,30 @@ namespace MyRecipeBook.API.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        // Define que este método responde a requisições HTTP POST.
         [HttpPost]
+        // Documenta que o tipo de resposta de sucesso será 201 Created.
         [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status201Created)]
-       public IActionResult Register(ResquestRegistreUserJson resquest)
+        public IActionResult Register(ResquestRegistreUserJson resquest)
         {
-            var useCase = new RegisterUserUseCase();
-            var result= useCase.Execute(resquest);
+            try
+            {
+                // Cria uma nova instância do caso de uso (serviço) de registro.
+                var useCase = new RegisterUserUseCase();
 
-            return Created(string.Empty, result);
+                // Executa o caso de uso com os dados da requisição.
+                var result = useCase.Execute(resquest);
+
+                // Retorna uma resposta HTTP 201 Created com os dados do usuário registrado.
+                return Created(string.Empty, result);
+            }
+            catch (Exception ex)
+            {
+                // ATENÇÃO: Captura genérica de exceção.
+                // O ideal seria capturar 'ErroOnValidationException' e retornar BadRequest (400).
+                // Aqui está retornando NotFound (404), o que pode não ser o ideal.
+                return NotFound(ex.Message);
+            }
         }
     }
 }
