@@ -10,30 +10,26 @@ namespace MyRecipeBook.API.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        // Define que este método responde a requisições HTTP POST.
+        /// <summary>
+        /// O QUE FAZ: Este é o endpoint da API para registrar um novo usuário.
+        /// Ele é ativado por uma requisição HTTP POST para a rota '.../user'.
+        /// </summary>
+        /// <param name="resquest">Os dados do usuário (JSON) vindos no corpo da requisição.</param>
+        /// <returns>Uma resposta HTTP (201 Created) com os dados do usuário registrado.</returns>
         [HttpPost]
-        // Documenta que o tipo de resposta de sucesso será 201 Created.
         [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status201Created)]
         public IActionResult Register(ResquestRegistreUserJson resquest)
         {
-            try
-            {
-                // Cria uma nova instância do caso de uso (serviço) de registro.
-                var useCase = new RegisterUserUseCase();
+            // COMO FAZ:
+            // 1. Cria uma nova instância do 'RegisterUserUseCase' (a classe que contém a lógica de negócio).
+            var useCase = new RegisterUserUseCase();
 
-                // Executa o caso de uso com os dados da requisição.
-                var result = useCase.Execute(resquest);
+            // 2. Executa o caso de uso, passando os dados da requisição ('resquest').
+            var result = useCase.Execute(resquest);
 
-                // Retorna uma resposta HTTP 201 Created com os dados do usuário registrado.
-                return Created(string.Empty, result);
-            }
-            catch (Exception ex)
-            {
-                // ATENÇÃO: Captura genérica de exceção.
-                // O ideal seria capturar 'ErroOnValidationException' e retornar BadRequest (400).
-                // Aqui está retornando NotFound (404), o que pode não ser o ideal.
-                return NotFound(ex.Message);
-            }
+            // 3. Retorna uma resposta HTTP 201 (Created), que indica que um novo recurso
+            //    foi criado com sucesso. O 'result' é incluído no corpo da resposta (serializado como JSON).
+            return Created(string.Empty, result);
         }
     }
 }

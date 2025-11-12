@@ -129,4 +129,7 @@
   <data name="SENHA_VALIDA" xml:space="preserve">
     <value>Senha tem que ser valida</value>
   </data>
+  <data name="UNKNOWN_ERROR" xml:space="preserve">
+    <value>Erro desconhecido</value>
+  </data>
 </root>
