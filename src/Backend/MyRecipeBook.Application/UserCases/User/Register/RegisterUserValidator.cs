@@ -11,7 +11,7 @@ namespace MyRecipeBook.Application.UserCases.User.Register
         public RegisterUserValidator()
         {
             // Regra: A propriedade 'Nome' não pode ser vazia ou nula.
-            RuleFor(user => user.Nome).NotEmpty().WithMessage(ResourceMessagesException.NAME_EMPTY);
+            RuleFor(user => user.Name).NotEmpty().WithMessage(ResourceMessagesException.NAME_EMPTY);
 
             // Regra: A propriedade 'Email' não pode ser vazia ou nula.
             RuleFor(user => user.Email).NotEmpty().WithMessage(ResourceMessagesException.EMAIL_EMPTY);

@@ -69,7 +69,7 @@
       "ResquestRegistreUserJson": {
         "type": "object",
         "properties": {
-          "nome": {
+          "name": {
             "type": "string",
             "nullable": true
           },
