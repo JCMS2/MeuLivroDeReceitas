@@ -1,57 +1,55 @@
 ﻿using MyRecipeBook.Application.Services.AutoMapper;
+using MyRecipeBook.Application.Services.Ctyptography;
 using MyRecipeBook.Communication.Requests;
 using MyRecipeBook.Communication.Responses;
 using MyRecipeBook.Exceptions.ExceptionsBase;
 
 namespace MyRecipeBook.Application.UserCases.User.Register
 {
-    // Classe responsável pela Regra de Negócio de cadastrar um usuário.
+    // Classe responsável pelo caso de uso de registrar um usuário no sistema.
     public class RegisterUserUseCase
     {
-        // Método principal que executa o cadastro.
-        // Recebe os dados da requisição (request) e retorna uma resposta (response).
+        // Executa o fluxo principal de cadastro do usuário.
         public ResponseRegisteredUserJson Execute(ResquestRegistreUserJson resquest)
         {
-            // 1. Validação: Chama o método privado para verificar se os dados (email, senha) são válidos.
-            Validate(resquest);
+            // Instancia o serviço de criptografia de senhas.
+            var criptografiaDeSenha = new PasswordEncripter();
 
-            // 2. Configuração do AutoMapper:
-            // Inicializa a configuração de mapeamento baseada na classe 'AutoMapping'.
+            // Configura o AutoMapper usando o profile definido em AutoMapping.
             var autoMapper = new AutoMapper.MapperConfiguration(options =>
             {
                 options.AddProfile(new AutoMapping());
             }).CreateMapper();
 
-            // 3. Mapeamento:
-            // Converte o objeto de Requisição (DTO) para a Entidade de Domínio (User).
-            // Isso prepara o objeto para ser salvo no banco de dados.
+            // Valida a requisição antes de qualquer operação.
+            Validate(resquest);
+
+            // Converte o DTO de requisição para a entidade de domínio User.
             var user = autoMapper.Map<Domain.Entities.User>(resquest);
 
-            // 4. Retorno:
-            // Cria e retorna o objeto de resposta contendo o nome do usuário cadastrado.
+            // Criptografa a senha antes de salvar a entidade.
+            user.Password = criptografiaDeSenha.Encrypt(resquest.Password);
+
+            // Retorna o dado necessário à resposta (por enquanto, apenas o nome).
             return new ResponseRegisteredUserJson
             {
                 Nome = resquest.Name,
             };
         }
 
-        // Método auxiliar privado para validar a requisição.
+        // Valida os dados recebidos no DTO de registro.
         private void Validate(ResquestRegistreUserJson resquest)
         {
-            // Instancia o validador específico para registro de usuários.
+            // Cria o validador específico para registro de usuário.
             var validator = new RegisterUserValidator();
 
-            // Executa a validação nos dados recebidos.
+            // Executa a validação e captura o resultado.
             var result = validator.Validate(resquest);
 
-            // Se o resultado NÃO for válido (contém erros):
+            // Se possuir erros, lança exceção personalizada contendo todas as mensagens.
             if (result.IsValid == false)
             {
-                // Extrai apenas as mensagens de texto de todos os erros encontrados.
                 var erroMessages = result.Errors.Select(e => e.ErrorMessage).ToList();
-
-                // Lança uma exceção personalizada contendo a lista de erros.
-                // Isso interrompe o fluxo e retorna os erros para a API.
                 throw new ErroOnValidationException(erroMessages);
             }
         }
