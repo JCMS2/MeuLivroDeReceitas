@@ -2,15 +2,19 @@
 using MyRecipeBook.Application.Services.Ctyptography;
 using MyRecipeBook.Communication.Requests;
 using MyRecipeBook.Communication.Responses;
+using MyRecipeBook.Domain.Repositories.User;
 using MyRecipeBook.Exceptions.ExceptionsBase;
+using System.Threading.Tasks;
 
 namespace MyRecipeBook.Application.UserCases.User.Register
 {
     // Classe responsável pelo caso de uso de registrar um usuário no sistema.
     public class RegisterUserUseCase
     {
+        private readonly IUserWriteOnlyRepository _writeOnlyRepository;
+        private readonly IUserReadOnlyRepository _readOnlyRepository;
         // Executa o fluxo principal de cadastro do usuário.
-        public ResponseRegisteredUserJson Execute(ResquestRegistreUserJson resquest)
+        public async Task<ResponseRegisteredUserJson> Execute(ResquestRegistreUserJson resquest)
         {
             // Instancia o serviço de criptografia de senhas.
             var criptografiaDeSenha = new PasswordEncripter();
@@ -29,6 +33,8 @@ namespace MyRecipeBook.Application.UserCases.User.Register
 
             // Criptografa a senha antes de salvar a entidade.
             user.Password = criptografiaDeSenha.Encrypt(resquest.Password);
+
+            await _writeOnlyRepository.Add(user);
 
             // Retorna o dado necessário à resposta (por enquanto, apenas o nome).
             return new ResponseRegisteredUserJson
